@@ -1,6 +1,6 @@
 {
   "name": "pinkie-polyfill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ES2015 Promise polyfill by pinkie with globally assignment.",
   "keywords": [
     "promise",
@@ -19,15 +19,8 @@
   "bugs": {
     "url": "https://github.com/Cweili/pinkie-polyfill/issues"
   },
-  "main": "dist/pinkie-polyfill.js",
-  "scripts": {
-    "build": "babel *.js -d dist"
-  },
+  "main": "pinkie-polyfill.js",
   "dependencies": {
     "pinkie": "*"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.6.0"
   }
 }

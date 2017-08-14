@@ -1,9 +1,7 @@
-import pinkie from 'pinkie';
-
-const root = window || global || this;
+var root = window || global || this;
 
 if (!root.Promise) {
-  root.Promise = pinkie;
+  root.Promise = require('pinkie');
 }
 
-export default root.Promise;
+module.exports = root.Promise;
