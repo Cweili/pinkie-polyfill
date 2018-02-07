@@ -1,11 +1,11 @@
-# Pinkie Polyfill
+# pinkie-polyfill
 
 [![npm][npm-version]](npm)
 [![npm][npm-downloads]](npm)
 [![npm][npm-license]](npm)
 [![github][github-issues]](github)
 
-ES2015 [Promise](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise) polyfill by [pinkie](https://github.com/floatdrop/pinkie) with globally assignment.
+ES2015 [Promise](promise) polyfill by [pinkie](pinkie) with globally assignment.
 
 ## Install
 
@@ -30,3 +30,6 @@ new Promise((resolve, reject) => {
 
 [github]: https://github.com/Cweili/pinkie-polyfill
 [github-issues]: https://img.shields.io/github/issues/Cweili/pinkie-polyfill.svg
+
+[promise]: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise
+[pinkie]: https://github.com/floatdrop/pinkie
