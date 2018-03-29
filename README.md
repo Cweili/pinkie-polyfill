@@ -1,9 +1,9 @@
 # pinkie-polyfill
 
-[![npm][npm-version]](npm)
-[![npm][npm-downloads]](npm)
-[![npm][npm-license]](npm)
-[![github][github-issues]](github)
+[![npm][npm-version]][npm]
+[![npm][npm-downloads]][npm]
+[![npm][npm-license]][npm]
+[![github][github-issues]][github]
 
 ES2015 [Promise](promise) polyfill by [pinkie](pinkie) with globally assignment.
 
