@@ -20,7 +20,6 @@
     "url": "https://github.com/Cweili/pinkie-polyfill/issues"
   },
   "main": "pinkie-polyfill.js",
-  "browser": "dist/pinkie-polyfill.js",
   "unpkg": "dist/pinkie-polyfill.js",
   "jsdelivr": "dist/pinkie-polyfill.js",
   "scripts": {
