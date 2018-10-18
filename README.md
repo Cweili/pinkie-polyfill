@@ -1,6 +1,7 @@
 # pinkie-polyfill
 
 [![npm][npm-version]][npm]
+[![npm][npm-size]][npm]
 [![npm][npm-downloads]][npm]
 [![npm][npm-license]][npm]
 
