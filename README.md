@@ -1,5 +1,7 @@
 # pinkie-polyfill
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Cweili/pinkie-polyfill.svg)](https://greenkeeper.io/)
+
 [![npm][npm-version]][npm]
 [![npm][npm-size]][npm]
 [![npm][npm-downloads]][npm]
