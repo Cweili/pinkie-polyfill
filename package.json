@@ -20,7 +20,16 @@
     "url": "https://github.com/Cweili/pinkie-polyfill/issues"
   },
   "main": "pinkie-polyfill.js",
+  "scripts": {
+    "test": "nyc mocha",
+    "coverage": "nyc --reporter=lcov npm test"
+  },
   "dependencies": {
     "pinkie": "*"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "promises-aplus-tests": "^2.1.2"
   }
 }
