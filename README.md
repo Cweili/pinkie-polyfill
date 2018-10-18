@@ -12,19 +12,35 @@ ES2015 [Promise](promise) polyfill by [pinkie](pinkie) with globally assignment.
 
 ## Install
 
+### NPM
+
 ```
-npm install pinkie-polyfill --save
+npm install req-json --save
+```
+
+ES modules for Webpack 2+ or Rollup
+
+```js
+import 'pinkie-polyfill';
+```
+
+CommonJS for Webpack 1 or Browserify
+
+```js
+require('pinkie-polyfill');
+```
+
+### Browser
+
+Direct `<script>` include
+
+```html
+<script src="https://unpkg.com/pinkie-polyfill"></script>
 ```
 
 ## Basic Usage
 
-```js
-import 'pinkie-polyfill';
-
-new Promise((resolve, reject) => {
-  // ...
-});
-```
+A Promise is an object representing the eventual completion or failure of an asynchronous operation. See [full documents](promise).
 
 [npm]: https://www.npmjs.com/package/pinkie-polyfill
 [npm-version]: https://img.shields.io/npm/v/pinkie-polyfill.svg
@@ -41,5 +57,5 @@ new Promise((resolve, reject) => {
 [codecov]: https://codecov.io/gh/Cweili/pinkie-polyfill
 [codecov-svg]: https://img.shields.io/codecov/c/github/Cweili/pinkie-polyfill.svg
 
-[promise]: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise
+[promise]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
 [pinkie]: https://github.com/floatdrop/pinkie
