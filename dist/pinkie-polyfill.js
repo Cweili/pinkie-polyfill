@@ -294,7 +294,7 @@ var Pinkie = (function () {
 
 	var pinkie = Promise;
 
-	var root = commonjsGlobal || window || commonjsGlobal;
+	var root = typeof commonjsGlobal != 'undefined' ? commonjsGlobal : typeof window != 'undefined' ? window : commonjsGlobal;
 
 	if (!root.Promise) {
 	  root.Promise = pinkie;
