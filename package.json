@@ -36,6 +36,6 @@
     "promises-aplus-tests": "^2.1.2",
     "rollup": "^0.67.0",
     "rollup-plugin-commonjs": "^9.2.0",
-    "rollup-plugin-node-resolve": "^3.4.0"
+    "rollup-plugin-node-resolve": "^4.0.0"
   }
 }
