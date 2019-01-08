@@ -36,7 +36,7 @@ require('pinkie-polyfill');
 Direct `<script>` include
 
 ```html
-<script src="https://unpkg.com/pinkie-polyfill"></script>
+<script src="https://cdn.jsdelivr.net/npm/pinkie-polyfill"></script>
 ```
 
 ## Basic Usage
