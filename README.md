@@ -53,7 +53,7 @@ A Promise is an object representing the eventual completion or failure of an asy
 [github-issues]: https://img.shields.io/github/issues/Cweili/pinkie-polyfill.svg
 
 [travis]: https://travis-ci.org/Cweili/pinkie-polyfill
-[travis-build]: https://img.shields.io/travis/Cweili/pinkie-polyfill.svg
+[travis-build]: https://travis-ci.org/Cweili/pinkie-polyfill.svg?branch=master
 
 [codecov]: https://codecov.io/gh/Cweili/pinkie-polyfill
 [codecov-svg]: https://img.shields.io/codecov/c/github/Cweili/pinkie-polyfill.svg
