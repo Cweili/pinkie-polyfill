@@ -34,7 +34,7 @@
     "mocha": "^7.0.1",
     "nyc": "^15.0.0",
     "promises-aplus-tests": "^2.1.2",
-    "rollup": "^2.0.0",
+    "rollup": "^2.7.2",
     "rollup-plugin-commonjs": "^10.0.0",
     "rollup-plugin-node-resolve": "^5.0.0"
   }
