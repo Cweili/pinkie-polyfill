@@ -6,8 +6,8 @@
 [![npm][npm-license]][npm]
 
 [![github][github-issues]][github]
-[![travis][travis-build]][travis]
-[![codecov][codecov-svg]][codecov]
+[![build][badge-build]][workflows]
+[![coverage][badge-coverage]][coveralls]
 
 ES2015 [Promise](promise) polyfill by [pinkie](pinkie) with globally assignment.
 
@@ -16,7 +16,7 @@ ES2015 [Promise](promise) polyfill by [pinkie](pinkie) with globally assignment.
 ### NPM
 
 ```
-npm install req-json --save
+npm install pinkie-polyfill --save
 ```
 
 ES modules for Webpack 2+ or Rollup
@@ -52,11 +52,11 @@ A Promise is an object representing the eventual completion or failure of an asy
 [github]: https://github.com/Cweili/pinkie-polyfill
 [github-issues]: https://img.shields.io/github/issues/Cweili/pinkie-polyfill.svg
 
-[travis]: https://travis-ci.org/Cweili/pinkie-polyfill
-[travis-build]: https://travis-ci.org/Cweili/pinkie-polyfill.svg?branch=master
+[badge-build]: https://img.shields.io/github/actions/workflow/status/Cweili/pinkie-polyfill/ci.yml?branch=master
+[workflows]: https://github.com/Cweili/pinkie-polyfill/actions/workflows/ci.yml?query=branch%3Amaster
 
-[codecov]: https://codecov.io/gh/Cweili/pinkie-polyfill
-[codecov-svg]: https://img.shields.io/codecov/c/github/Cweili/pinkie-polyfill.svg
+[badge-coverage]: https://img.shields.io/coveralls/github/Cweili/pinkie-polyfill/master.svg
+[coveralls]: https://coveralls.io/github/Cweili/pinkie-polyfill?branch=master
 
 [promise]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
 [pinkie]: https://github.com/floatdrop/pinkie
